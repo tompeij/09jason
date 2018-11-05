@@ -10,6 +10,38 @@ Version: 0.1.0
 
 /*test*/
 
-p {
-  color: pink;
+.social-navigation a {
+  background-color: #595630;
+
+}
+
+button {
+  background-color: #595630;
+}
+
+button:hover {
+  background-color: #393C59;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.social-navigation a:hover {
+  background-color: #393C59;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+h2.widget-title {
+  color: #595639;
+}
+
+.home.blog .entry-title {
+  font-size: 2rem;
+  padding: 2em;
+}
+
+.textwidget p strong {
+  text-transform: uppercase;
 }
